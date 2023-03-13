@@ -1,0 +1,137 @@
+*{
+    font-family: 'Merriweather',cursive ;
+    font-weight: bold; 
+    background-color: #242424;
+}
+
+
+header,h1{
+    font-size: 35px;
+    background-color: #B4B8B9;
+    color: black;
+    text-decoration: underline;
+    text-shadow: 2px 1px 2px black;
+    text-align: center;
+    width: auto;
+   
+}
+#div1{
+    float: left;
+    width: 32%;
+    height: 100%;
+    margin-top: 2pc;
+    border: 0;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(230, 236, 230) 50%, rgb(151, 36, 36));
+     border-radius: 6px; 
+     color: #fff;
+     font-size: 18px;
+     padding: 4px;  
+      
+ } 
+@media screen and (max-width: 767px) {
+        #div1 {
+          width: 100%;
+        }
+    }
+#divimg{
+    padding: 25px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+    
+}
+
+img{
+    border-radius: 100%;
+    border: solid;
+    color: white;
+    height: auto;
+}
+
+
+#div2{
+    
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.subtitulo{
+    display: block;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+     
+}
+#subtituloh2{
+    display: flex;
+    font-size: 29px;
+    font-weight: bold;
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+    
+
+}
+
+.Experiencia {
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    width: 62%;
+    height: 50%;
+    float: right;
+    
+}
+@media screen and (max-width: 767px) {
+    .Experiencia {
+      width: 100%;
+    }}
+
+.abajo{
+    height: 50%;
+    width: 62%;
+}
+
+.content {
+    display: none; /* Inicialmente oculto */
+}  
+button{
+    border: 0;
+    background-image: linear-gradient(to bottom, blue, green 50%, red);
+     border-radius: 8px; 
+     color: #fff;
+     display: flex;
+     font-size: 18px;
+     padding: 4px;  
+     cursor: pointer;  
+     transition:  .3s;   
+       
+}
+button span{
+    background-color: black;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition:  .3s;
+}
+button:hover span{
+    background: none;
+}
+button:active{
+    transform: scale(0.9);
+}
+
+
+
+  
+
+
+
+
